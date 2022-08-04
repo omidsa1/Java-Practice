@@ -1,0 +1,17 @@
+Problem Definition:
+
+Given an input string, sort it based on characters ()
+
+Input: 
+fabcdabcde
+
+Output: 
+1111
+1111
+1110
+1110
+1110
+1110
+1110
+1100
+1000
