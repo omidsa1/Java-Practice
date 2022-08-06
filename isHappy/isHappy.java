@@ -6,11 +6,11 @@ import java.util.function.Function;
 public class isHappy {
 
     public static void main(String[] args) {
-        Boolean finite = printSquareOfEachDigitFromInput(4);
+        Boolean finite = isHappy(19);
         System.out.println(finite);
     }
 
-    public static boolean printSquareOfEachDigitFromInput(Integer input){
+    public static boolean isHappy(Integer input){
         Integer sum = input;
         ArrayList<Integer> squareSumArrayList = new ArrayList<>();
 
